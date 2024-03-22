@@ -34,9 +34,13 @@ nav ul{
 }
 
 /* header body section */
+.header-body{
+    display: flex;
+    flex-direction: row-reverse;
+}
 .header-img{
     background: url('images/circle\ jpg.jpg');
-    background-size: 414px;
+    background-size: 440px;
     background-repeat: no-repeat;
-    background-position: right;
+    /* background-position: right; */
 }
