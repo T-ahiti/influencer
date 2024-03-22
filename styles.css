@@ -72,3 +72,16 @@ nav ul{
     background-repeat: no-repeat;
     /* background-position: right; */
 }
+
+.button-primary{
+    background-color: rgba(224, 44, 109, 1);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 196px;
+    height: 44px;
+}
+
+.white{
+    font-weight: bold;
+}
