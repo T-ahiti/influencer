@@ -93,6 +93,19 @@ nav ul{
     color: white;
 }
 
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 1110px;
+    gap: 50px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    /* border-image: linear-gradient(to right, #ff7e5f, #feb47b); */
+    margin-left: 80px;
+}
+
 /* header responsive */
 @media screen and (max-width:576px) {
     .header-body{
@@ -140,5 +153,14 @@ nav ul{
 
     .button-primary{
         margin-top: 10px;
+    }
+
+    .logo-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        border: none;
+        height: auto;
+        width:  auto;
+        margin-left: 10px;
     }
 }
