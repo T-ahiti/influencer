@@ -141,7 +141,12 @@ nav ul{
 }
 
 .star{
-    
+    margin-top: 0px;
+}
+
+.fa-star{
+    height: 12px;
+    width:  12px;
 }
 
 
