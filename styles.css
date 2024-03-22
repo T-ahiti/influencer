@@ -74,7 +74,6 @@ nav ul{
     background: url('images/circle\ jpg.jpg');
     background-size: 440px;
     background-repeat: no-repeat;
-    /* background-position: right; */
 }
 
 .button-primary{
@@ -83,12 +82,63 @@ nav ul{
     border-radius: 40px;
     width: 196px;
     height: 40px;
+    line-height: 40px
 }
 
 .white{
     font-weight: bold;
-    text-align: center;
+    /* text-align: center; */
     margin-top: 0px;
     margin-bottom: 50%;
     color: white;
+}
+
+/* header responsive */
+@media screen and (max-width:576px) {
+    .header-body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+}
+
+    .nav-bar{
+        flex-direction: column;
+        gap: 0px;
+        padding-right: 40px;
+    }
+
+    .nav-title{
+        text-align: center;
+    }
+
+    .header-writing{
+        width: auto;
+        text-align: center;
+    }
+
+    .header-title{
+        width: 400px;
+    }
+
+    .header-des{
+        width: 320px;
+        height: 65px;
+        margin-left: 45px;
+    }
+
+    .header-camera{
+        height: 190px;
+        width:  202px;
+        padding-top: 40px;
+        padding-left: 20px;
+    }
+
+    .header-img{
+        background-size: 257px;
+        background-repeat: no-repeat;
+    }
+
+    .button-primary{
+        margin-top: 10px;
+    }
 }
