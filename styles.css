@@ -1,6 +1,9 @@
 *{
     font-family: "Poppins", sans-serif;
 }
+:root{
+    --primary-color: rgba(58, 58, 58, 1);
+}
 
 /* header styles */
 
@@ -30,14 +33,39 @@ nav li{
 
 nav ul{
     display: flex;
-    gap: 27px;
+    gap: 29px;
 }
 
 /* header body section */
 .header-body{
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
 }
+
+.header-writing{
+    width: 582px;
+}
+
+.header-title{
+    font-size: 50px;
+    color: var(--primary-color);
+    margin-bottom: 0px;
+}
+
+.header-des{
+    width: 505px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.header-camera{
+    height: 360px;
+    width:  390px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
 .header-img{
     background: url('images/circle\ jpg.jpg');
     background-size: 440px;
