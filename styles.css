@@ -1,0 +1,32 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+/* header styles */
+.nav-title{
+    font-size: 22px;
+    color: rgba(58, 58, 58, 1);
+}
+.title-des{
+    font-size: 16px;
+    color: rgba(58, 58, 58, 1);
+    font-weight: 600;
+}
+
+.nav-bar{
+    margin-top: 50px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 200px;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav ul{
+    display: flex;
+    gap: 27px;
+}
