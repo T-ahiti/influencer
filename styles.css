@@ -104,6 +104,7 @@ nav ul{
     border-bottom: 1px solid;
     /* border-image: linear-gradient(to right, #ff7e5f, #feb47b); */
     margin-left: 80px;
+    margin-bottom: 120px;
 }
 
 /* header responsive */
