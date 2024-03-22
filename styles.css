@@ -3,6 +3,8 @@
 }
 
 /* header styles */
+
+/* nav section */
 .nav-title{
     font-size: 22px;
     color: rgba(58, 58, 58, 1);
@@ -29,4 +31,12 @@ nav li{
 nav ul{
     display: flex;
     gap: 27px;
+}
+
+/* header body section */
+.header-img{
+    background: url('images/circle\ jpg.jpg');
+    background-size: 414px;
+    background-repeat: no-repeat;
+    background-position: right;
 }
