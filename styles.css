@@ -24,7 +24,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 200px;
+    gap: 150px;
 }
 
 nav li{
@@ -43,6 +43,8 @@ nav ul{
     justify-content: space-around;
     align-items: center;
     margin-bottom: 90px;
+    padding-left:  80px;
+    padding-right: 80px;
 }
 
 .header-writing{
@@ -53,6 +55,7 @@ nav ul{
     font-size: 50px;
     color: var(--primary-color);
     margin-bottom: 0px;
+    width: 560px;
 }
 
 .header-des{
