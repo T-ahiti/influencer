@@ -118,7 +118,9 @@ nav ul{
     padding: 10px;
 }
 
-
+.checked {
+    color: orange;
+  }
 
 
 
