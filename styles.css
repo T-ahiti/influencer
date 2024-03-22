@@ -1,24 +1,26 @@
-*{
+* {
     font-family: "Poppins", sans-serif;
 }
-:root{
+
+:root {
     --primary-color: rgba(58, 58, 58, 1);
 }
 
 /* header styles */
 
 /* nav section */
-.nav-title{
+.nav-title {
     font-size: 22px;
     color: rgba(58, 58, 58, 1);
 }
-.title-des{
+
+.title-des {
     font-size: 16px;
     color: rgba(58, 58, 58, 1);
     font-weight: 600;
 }
 
-.nav-bar{
+.nav-bar {
     margin-top: 50px;
     margin-left: 0px;
     display: flex;
@@ -27,56 +29,57 @@
     gap: 150px;
 }
 
-nav li{
+nav li {
     list-style: none;
 }
 
-nav ul{
+nav ul {
     display: flex;
     gap: 29px;
 }
 
 /* header body section */
-.header-body{
+.header-body {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 90px;
-    padding-left:  80px;
+    padding-left: 80px;
     padding-right: 80px;
 }
 
-.header-writing{
+.header-writing {
     width: 582px;
 }
 
-.header-title{
+.header-title {
     font-size: 50px;
     color: var(--primary-color);
     margin-bottom: 0px;
     width: 560px;
 }
 
-.header-des{
+.header-des {
     width: 505px;
     margin-top: 0px;
     padding-top: 0px;
 }
-.header-camera{
+
+.header-camera {
     height: 360px;
-    width:  390px;
+    width: 390px;
     padding-top: 40px;
     padding-left: 20px;
 }
 
-.header-img{
+.header-img {
     background: url('images/circle\ jpg.jpg');
     background-size: 440px;
     background-repeat: no-repeat;
 }
 
-.button-primary{
+.button-primary {
     background-color: rgba(224, 44, 109, 1);
     border: none;
     border-radius: 40px;
@@ -85,7 +88,7 @@ nav ul{
     line-height: 40px
 }
 
-.white{
+.white {
     font-weight: bold;
     margin-top: 0px;
     margin-bottom: 50%;
@@ -95,7 +98,7 @@ nav ul{
 /* main section start */
 
 /* logo */
-.logo-container{
+.logo-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,106 +112,132 @@ nav ul{
 }
 
 /* collection */
-.collection-container{
+.collection-container {
     display: grid;
-    gap: 20px;
-    margin-left:  80px;
-    margin-right: 80px ;
+    margin-left: 130px;
+    margin-right: 120px;
     grid-template-columns: repeat(3, 1fr);
 }
 
-.card{
+.card {
     padding: 10px;
-    height: auto;
-    width: 300px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    height: 400px;
+    width: 255px;
+    box-shadow: 2px 2px 30px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    margin-left: 30px;
+    border-radius: 3px;
 }
 
+.collection-img{
+    width: 255px;
+}
 .checked {
     color: orange;
-  }
+}
 
-.collection-title{
+.collection-title {
     font-size: 28px;
     font-weight: 500;
     margin-bottom: 0px;
+    color: rgba(24, 25, 31, 1);
+    margin-top: 4px;
 }
 
-.collection-price{
+.collection-price {
     font-size: 24px;
     font-weight: 400;
     margin-top: 6px;
+    color: rgba(24, 25, 31, 1);
+    margin-bottom: 4px;
 }
 
-.star{
+.star {
     margin-top: 0px;
 }
 
-.fa-star{
+.fa-star {
     height: 12px;
-    width:  12px;
+    width: 12px;
 }
+
+.rate {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(94, 99, 102, 1);
+}
+
+.collection-des {
+    color: rgba(120, 120, 133, 1);
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+
+
 
 
 
 /* responsive */
 @media screen and (max-width:576px) {
-/* header responsive */
-    .header-body{
+
+    /* header responsive */
+    .header-body {
         display: flex;
         flex-direction: column;
         justify-content: center;
-}
+    }
 
-    .nav-bar{
+    .nav-bar {
         flex-direction: column;
         gap: 0px;
         padding-right: 40px;
     }
 
-    .nav-title{
+    .nav-title {
         text-align: center;
     }
 
-    .header-writing{
+    .header-writing {
         width: auto;
         text-align: center;
     }
 
-    .header-title{
+    .header-title {
         width: 400px;
     }
 
-    .header-des{
+    .header-des {
         width: 320px;
         height: 65px;
         margin-left: 45px;
     }
 
-    .header-camera{
+    .header-camera {
         height: 190px;
-        width:  202px;
+        width: 202px;
         padding-top: 40px;
         padding-left: 20px;
     }
 
-    .header-img{
+    .header-img {
         background-size: 257px;
         background-repeat: no-repeat;
     }
 
-    .button-primary{
+    .button-primary {
         margin-top: 10px;
     }
 
-/* main responsive */
-/* logo */
-    .logo-container{
+    /* main responsive */
+    /* logo */
+    .logo-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         border: none;
         height: auto;
-        width:  auto;
+        width: auto;
         margin-left: 10px;
     }
 }
