@@ -277,6 +277,11 @@ footer {
         padding-right: 40px;
     }
 
+    nav ul {
+        gap: 25px;
+        margin-left: 50px;
+    }
+
     .nav-title {
         text-align: center;
     }
@@ -288,6 +293,7 @@ footer {
 
     .header-title {
         width: 400px;
+        font-size: 35px;
     }
 
     .header-des {
