@@ -285,4 +285,9 @@ nav ul {
     .arrow-see{
         margin-left: 70vw;
  }
+
+    .featured-container{
+       flex-direction: column-reverse;
+       text-align: center;
+    }
 }
