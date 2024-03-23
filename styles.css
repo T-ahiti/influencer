@@ -227,24 +227,30 @@ footer {
     padding: 0px;
 }
 
+.footer-container{
+    padding-top: 40px;
+}
+
 .footer-title {
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 22px;
+    font-weight: 700;
     margin-bottom: 5px;
 }
 
 .footer-des {
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 12px;
+    font-weight: 500;
     color: rgba(217, 219, 225, 1);
     margin-top: 0px;
     margin-bottom: 5px;
 }
 
-.footer-container{
-    padding-top: 50px;
+.icons-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
-
 
 
 /* responsive */
