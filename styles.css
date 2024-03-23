@@ -1,5 +1,6 @@
 * {
     font-family: "Poppins", sans-serif;
+    padding: 0px;
 }
 
 :root {
@@ -132,9 +133,10 @@ nav ul {
     cursor: pointer;
 }
 
-.collection-img{
+.collection-img {
     width: 255px;
 }
+
 .checked {
     color: orange;
 }
@@ -177,11 +179,11 @@ nav ul {
     margin-top: 0px;
 }
 
-.arrow-see{
-       margin-left: 80vw;
+.arrow-see {
+    margin-left: 80vw;
 }
 
-.pink{
+.pink {
     color: rgba(224, 44, 109, 0.87);
     font-size: 16px;
     font-weight: bold;
@@ -191,7 +193,7 @@ nav ul {
 
 /* featured collection started */
 
-.featured-container{
+.featured-container {
     margin-top: 100px;
     display: flex;
     justify-content: center;
@@ -200,29 +202,48 @@ nav ul {
     margin-bottom: 100px;
 }
 
-.featured-title{
+.featured-title {
     font-size: 38px;
     margin-bottom: 0px;
 }
-.featured-des{
+
+.featured-des {
     font-size: 16px;
     font-weight: 600;
     color: rgba(108, 108, 108, 1);
 }
 
-.feature-btn{
+.feature-btn {
     border-radius: 0;
 }
 
 
 /* footer styles */
- footer{
+footer {
     color: white;
-    background-color: rgb(3, 3, 51);
+    background-color: rgb(1, 1, 41);
     text-align: center;
- }
+    height: 40vh;
+    padding: 0px;
+}
 
+.footer-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
 
+.footer-des {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(217, 219, 225, 1);
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.footer-container{
+    padding-top: 50px;
+}
 
 
 
@@ -294,12 +315,12 @@ nav ul {
         margin: 20px;
     }
 
-    .arrow-see{
+    .arrow-see {
         margin-left: 70vw;
- }
+    }
 
-    .featured-container{
-       flex-direction: column-reverse;
-       text-align: center;
+    .featured-container {
+        flex-direction: column-reverse;
+        text-align: center;
     }
 }
