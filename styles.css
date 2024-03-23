@@ -85,7 +85,9 @@ nav ul {
     border-radius: 40px;
     width: 196px;
     height: 40px;
-    line-height: 40px
+    line-height: 40px;
+    cursor: pointer;
+
 }
 
 .white {
@@ -127,6 +129,7 @@ nav ul {
     margin-bottom: 30px;
     margin-left: 30px;
     border-radius: 3px;
+    cursor: pointer;
 }
 
 .collection-img{
@@ -193,6 +196,13 @@ nav ul {
     color: rgba(108, 108, 108, 1);
 }
 
+.featured-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+}
 
 /* responsive */
 @media screen and (max-width:576px) {
