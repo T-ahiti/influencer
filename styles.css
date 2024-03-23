@@ -16,18 +16,18 @@
 }
 
 .title-des {
-    font-size: 16px;
+    font-size: 14px;
     color: rgba(58, 58, 58, 1);
     font-weight: 600;
 }
 
 .nav-bar {
-    margin-top: 50px;
+    margin-top: 45px;
     margin-left: 0px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 150px;
+    gap: 200px;
 }
 
 nav li {
@@ -55,7 +55,7 @@ nav ul {
 }
 
 .header-title {
-    font-size: 50px;
+    font-size: 46px;
     color: var(--primary-color);
     margin-bottom: 0px;
     width: 560px;
@@ -65,6 +65,7 @@ nav ul {
     width: 505px;
     margin-top: 0px;
     padding-top: 0px;
+    font-size: 14px;
 }
 
 .header-camera {
@@ -115,6 +116,13 @@ nav ul {
 }
 
 /* collection */
+.popular-title{
+    text-align: center;
+    color: rgba(58, 58, 58, 1);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
 .collection-container {
     display: grid;
     margin-left: 130px;
@@ -328,5 +336,9 @@ footer {
     .featured-container {
         flex-direction: column-reverse;
         text-align: center;
+    }
+
+    footer{
+        height: 30vh;
     }
 }
